@@ -24,5 +24,8 @@
   },
   "poetry": {
     "enabled": false
+  },
+  "pep621": {
+    "enabled": false
   }
 }
