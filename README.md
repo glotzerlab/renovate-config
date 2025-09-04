@@ -14,7 +14,9 @@ On the PR that it creates:
 - [ ] Remove `dependabot.ya?ml`.
 - If using any `uv pip compile` files:
   - [ ] Modify the headers to use the syntax `--python-version={version}` (if present).
+  - [ ] Modify the header to include `--output-file={output-file-name}.txt`
   - [ ] Remove any use of `--python-platform`.
+  - [ ] Remove any pinning in the `.in` files.
   - [ ] Check the renovate logs for the repository and ensure that pip-compile
     finds the `requirements*.txt` files and does not report any warnings or errors.
     These files should also be listed in the PR description.
