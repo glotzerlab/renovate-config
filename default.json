@@ -21,7 +21,7 @@
   },
   "pip_setup": {
     "enabled": false
-  }
+  },
   "poetry": {
     "enabled": false
   }
