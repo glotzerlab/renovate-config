@@ -4,7 +4,7 @@ To migrate a package from dependabot to Renovate:
 
 - [ ] Create `.github/CODEOWNERS` and set the contents to:
    ```
-   @{primary maintainer} @glotzerlab/maintainers
+   * @{primary maintainer} @glotzerlab/maintainers
 - [ ] Enable auto-merge in settings.
 - Configure the branch protection rule:
   - [ ] Uncheck "Restrict updates".
@@ -13,8 +13,9 @@ To migrate a package from dependabot to Renovate:
   - [ ] Ensure that specific status checks are required.
   - [ ] Add the Renovate App to the bypass list.
   - [ ] Add `glotzerlab/maintainers` to the contributors with *maintain* privileges.
-    Navigate to `.github/CODEOWNERS` in the GitHub web interface and look for any
-    error messages at the top of the page.
+    Navigate to `.github/CODEOWNERS` in the GitHub web interface and confirm
+    there is a message at the top stating:
+    > This CODEOWNERS file is valid.
 
 Then request installation of the Renovate App.
 
