@@ -14,7 +14,8 @@
     "automerge": true
     },
   "pip-compile": {
-    "managerFilePatterns": ["/(^|/)[\\w-]*requirements([-.]\\w+)*\\.(txt|pip)$/"]
+    "managerFilePatterns": ["/(^|/)[\\w-]*requirements([-.]\\w+)*\\.(txt|pip)$/"],
+    "automerge": true
   },
   "pip_requirements": {
     "enabled": false
