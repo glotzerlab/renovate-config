@@ -14,12 +14,15 @@
     "automerge": true
     },
   "pip-compile": {
-    "managerFilePatterns": ["/(^|/)[\\w-]*requirements([-.]\\w+)?\\.(txt|pip)$/"]
+    "managerFilePatterns": ["/(^|/)[\\w-]*requirements([-.]\\w+)*\\.(txt|pip)$/"]
   },
   "pip_requirements": {
     "enabled": false
   },
   "pip_setup": {
+    "enabled": false
+  }
+  "poetry": {
     "enabled": false
   }
 }
