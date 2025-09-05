@@ -17,7 +17,12 @@ On the PR that it creates:
   - [ ] Modify the headers to use the syntax `--python-version={version}` (if present).
   - [ ] Modify the header to include `--output-file={output-file-name}.txt`
   - [ ] Remove any use of `--python-platform`.
-  - [ ] Remove any pinning in the `.in` files.
+  - [ ] (recommended) Remove any pinning in the `.in` files. Updates
+    to one dependency at a time often fail to resolve (e.g. the latest *nbsphinx*
+    does not work with the latest *sphinx*). We could either pin in `.in` files and
+    accept many permanently open failing PRs, or unpin in `.in` files and get the
+    latest full compatible set of packages weekly. The disadvantage to unpinning
+    is that you don't get notification that some dependencies failed to update.
   - [ ] Check the renovate logs for the repository and ensure that pip-compile
     finds the `requirements*.txt` files and does not report any warnings or errors.
     These files should also be listed in the PR description.
