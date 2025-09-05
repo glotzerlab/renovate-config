@@ -6,6 +6,7 @@
     ":label(dependencies)"
   ],
   "timezone": "America/Detroit",
+  "reviewers": ["team:maintainers"],
   "github-actions": {
     "automerge": true
   },
