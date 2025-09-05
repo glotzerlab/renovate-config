@@ -3,6 +3,7 @@
 To migrate a package from dependabot to Renovate:
 
 - [ ] Enable auto-merge in settings.
+- [ ] Allow squash commits in settings.
 - Configure the branch protection rule:
   - [ ] Uncheck "Restrict updates".
   - [ ] Require 1 approval.
