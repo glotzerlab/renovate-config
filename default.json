@@ -7,6 +7,9 @@
   ],
   "timezone": "America/Detroit",
   "reviewers": ["team:maintainers"],
+  "cargo": {
+    "automerge": true
+  },
   "github-actions": {
     "automerge": true
   },
