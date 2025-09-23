@@ -1,0 +1,12 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: 'v6.0.0'
+  hooks:
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
+  - id: check-json
+  - id: check-toml
+  - id: check-yaml
+    exclude: "\\.clang-format"
+  - id: check-case-conflict
+  - id: mixed-line-ending
