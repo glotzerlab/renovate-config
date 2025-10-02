@@ -31,5 +31,14 @@
   },
   "poetry": {
     "enabled": false
-  }
+  },
+  "packageRules": [
+    {
+      "description": "Do not upgrade pinned python versions used for testing.",
+      "matchDatasources": ["conda"],
+      "matdhDepTypes": ["feature-py*"],
+      "matchPackageNames": ["python"],
+      "enabled": false
+    }
+  ]
 }
