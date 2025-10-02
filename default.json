@@ -35,7 +35,7 @@
   "packageRules": [
     {
       "description": "Do not upgrade pinned python versions used for testing.",
-      "matchDatasources": ["conda"],
+      "matchManagers": ["pixi"],
       "matdhDepTypes": ["feature-py*"],
       "matchPackageNames": ["python"],
       "enabled": false
