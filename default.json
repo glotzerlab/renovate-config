@@ -31,14 +31,5 @@
   },
   "poetry": {
     "enabled": false
-  },
-  "packageRules": [
-    {
-      "description": "Do not upgrade pinned python versions used for testing.",
-      "matchManagers": ["pixi"],
-      "matchDepTypes": ["feature-py*"],
-      "matchPackageNames": ["python"],
-      "enabled": false
-    }
-  ]
+  }
 }
