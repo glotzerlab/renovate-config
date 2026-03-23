@@ -1,0 +1,16 @@
+#:schema https://www.schemastore.org/prek.json
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "end-of-file-fixer" },
+  { id = "trailing-whitespace" },
+  { id = "check-json" },
+  { id = "check-toml" },
+  {
+    id = "check-yaml",
+    exclude = '\.clang-format'
+  },
+  { id = "check-case-conflict" },
+  { id = "mixed-line-ending" }
+]
