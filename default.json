@@ -14,10 +14,10 @@
     "automerge": true
   },
   "lockFileMaintenance": {
-    "description": "Automate lockfile maintenence early on Thursdays.",
+    "description": "Automate lockfile maintenence monthly.",
     "enabled": true,
     "automerge": true,
-    "schedule": ["* 0-3 * * 4"]
+    "schedule": ["* 0-3 1 * *"]
     },
   "pip-compile": {
     "managerFilePatterns": ["/.*requirements.*\\.(txt|pip)$/"],
