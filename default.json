@@ -9,20 +9,20 @@
   "timezone": "America/Detroit",
   "reviewers": ["team:maintainers"],
   "cargo": {
-    "automerge": true
+    "automerge": false
   },
   "github-actions": {
-    "automerge": true
+    "automerge": false
   },
   "lockFileMaintenance": {
     "description": "Automate lockfile maintenence quarterly.",
     "enabled": true,
-    "automerge": true,
+    "automerge": false,
     "schedule": ["* * 20 */3 *"]
     },
   "pip-compile": {
     "managerFilePatterns": ["/.*requirements.*\\.(txt|pip)$/"],
-    "automerge": true
+    "automerge": false
   },
   "pip_requirements": {
     "enabled": false
