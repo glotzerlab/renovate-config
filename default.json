@@ -7,7 +7,6 @@
   ],
   "schedule": ["* * * * 1"],
   "timezone": "America/Detroit",
-  "minimumReleaseAge": "14 days",
   "reviewers": ["team:maintainers"],
   "cargo": {
     "automerge": true
