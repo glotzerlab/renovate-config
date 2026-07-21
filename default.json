@@ -4,7 +4,8 @@
     "config:best-practices",
     ":semanticCommitsDisabled",
     ":label(dependencies)",
-    ":enableVulnerabilityAlerts"
+    ":enableVulnerabilityAlerts",
+    ":disableRateLimiting"
   ],
   "timezone": "America/Detroit",
   "reviewers": ["team:maintainers"],
