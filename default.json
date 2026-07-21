@@ -6,7 +6,6 @@
     ":label(dependencies)",
     ":enableVulnerabilityAlerts"
   ],
-  "schedule": ["* * * * 1"],
   "timezone": "America/Detroit",
   "reviewers": ["team:maintainers"],
   "cargo": {
@@ -16,7 +15,7 @@
     "automerge": true
   },
   "lockFileMaintenance": {
-    "description": "Automate lockfile maintenence quarterly.",
+    "description": "Automate lockfile maintenence.",
     "enabled": true,
     "automerge": true
     },
