@@ -17,8 +17,7 @@
   "lockFileMaintenance": {
     "description": "Automate lockfile maintenence quarterly.",
     "enabled": true,
-    "automerge": true,
-    "schedule": ["* * 20 */3 *"]
+    "automerge": true
     },
   "pip-compile": {
     "managerFilePatterns": ["/.*requirements.*\\.(txt|pip)$/"],
