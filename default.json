@@ -15,9 +15,10 @@
     "automerge": true
   },
   "lockFileMaintenance": {
-    "description": "Automate lockfile maintenence.",
+    "description": "Automate lockfile maintenence quarterly.",
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "schedule": ["* * 20 */3 *"]
     },
   "pip-compile": {
     "managerFilePatterns": ["/.*requirements.*\\.(txt|pip)$/"],
