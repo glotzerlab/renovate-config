@@ -3,7 +3,8 @@
   "extends": [
     "config:best-practices",
     ":semanticCommitsDisabled",
-    ":label(dependencies)"
+    ":label(dependencies)",
+    ":enableVulnerabilityAlerts"
   ],
   "schedule": ["* * * * 1"],
   "timezone": "America/Detroit",
