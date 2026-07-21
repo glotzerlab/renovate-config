@@ -41,24 +41,6 @@
       "matchDepTypes": [
         "indirect"
       ]
-    },
-    {
-      "description": "Disable non-security updates for indirect dependencies (vulnerability alerts use force to override this)",
-      "enabled": false,
-      "matchDepTypes": [
-        "indirect"
-      ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "pin",
-        "digest",
-        "pinDigest",
-        "lockFileMaintenance",
-        "rollback",
-        "replacement"
-      ]
     }
   ]
 }
